@@ -1,173 +1,19 @@
-###### Join our org [Here ✉️](https://github.com/App-Choreography/Get-An-Invite/issues/new?assignees=CodingSpecies&labels=Organisation+Invite%21+%F0%9F%93%A8&template=please-can-i-join-this-organisation------.md&title=Please+Can+I+Join+This+Organisation%3F+%F0%9F%A5%BA%F0%9F%99%8F") | [Our Website 🌐](https://app-choreography.github.io/) | [Repositories 📚](https://github.com/orgs/App-Choreography/repositories)
+# Fix Our README!
 
-# Fix Our Readme!
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
- Get an invite to our organisation when you contribute!
- 
-**This is a super easy way to polish your issue and pull request skills!**
+Get an invite to our organisation when you contribute a useful documentation fix.
 
-Simply make a pull request with your fixes, and then create an issue, either using our templates, or free style!
+## How to contribute
 
-### Contributing Guidelines: [How-To-Contribute](https://github.com/App-Choreography/How-To-Contribute)
+1. Choose one spelling, capitalization, heading, broken-markdown, or accessibility issue in this README.
+2. Make one focused change in a branch and open a pull request.
+3. After opening the pull request, create an issue using the organisation-invite template and include the pull-request link.
 
-## Here is the list on what to fix:
+Please keep changes focused so everyone has an opportunity to contribute. For general guidance, see [How-To-Contribute](https://github.com/App-Choreography/How-To-Contribute).
 
-> Please only choose 1 error per coder, so everyone has a go!
+## Accessibility checklist
 
-- [x] Headings on where they are designed:
+- Use clear heading levels.
+- Add descriptive alt text to images.
+- Keep code examples readable and explain the expected result.
 
-  `#` This is where a H1 is meant to be!
-
-- [x] Capital letters where they are missing, at the start of every sentence.
-- [x] Spelling mistakes.
-- [x] Broken markdown: 
-
-  `##This is a H2` ----> `## This is a H2`
-
----
-
-## Are you ready...
-Here we go!
-
----
-## How to make a website with multiple backgrounds:
-
-### Here is the screenshot of the website we will master today!
-
-![alt text](https://user-images.githubusercontent.com/70807500/129236192-d50c8137-4cae-4b0f-b489-6b2bdf4458ad.png)
-
-Looks cool right?
-
-## The required code you will need:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under sea demo</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
-
-<body>
-    <div class="bg-image img1"></div>
-    <div class="bg-image img2"></div>
-    <div class="bg-image img3"></div>
-    <div class="bg-image img4"></div>
-    <div class="bg-image img5"></div>
-    <div class="bg-image img6"></div>
-    <div class="bg-text">WORD BLA BLA BLA</div>
-</body>
-
-</html>
-```
-
-### The HTML:
-
-as always, their will always be a boilerplate::;
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  </head>
-  <body>
-  </body>
-</html>
-```
-
-the `body` tag shows the elements of the DOM(Document Object Model).
-
-## Lets carry on!
-
-```html
-    <div class="bg-image img1"></div>
-    <div class="bg-image img2"></div>
-    <div class="bg-image img3"></div>
-    <div class="bg-image img4"></div>
-    <div class="bg-image img5"></div>
-    <div class="bg-image img6"></div>
-    <div class="bg-text">WORD BLA BLA BLA</div>
-```
-
-## So we have 6 `<div>` elements, that contain imgs, and our last div contains our main text!
-
-## Time for the CSS!
-
-```css
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.bg-image {
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.img1 {background-image: url("https://wallpaperaccess.com/full/1321265.jpg");}
-.img2 {background-image: url("https://www.irishnews.com/picturesarchive/irishnews/irishnews/2018/03/11/181039187-d87ff77c-48c4-4a04-89d0-feae54f2faec.jpg");}
-.img3 {background-image: url("https://i.natgeofe.com/n/705ec8f5-2a1b-43c1-98ba-1d8ebfe58fce/01-trumps-ocean-policy-nationalgeographic_2461163_16x9.jpg?w=636&h=358");}
-.img4 {background-image: url("https://ml8ygptwlcsq.i.optimole.com/fMKjlhs-Dn1kuuR_/w:412/h:274/q:auto/https://www.unite.ai/wp-content/uploads/2020/04/fish-288988_960_720.jpg");}
-.img5 {background-image: url("https://ensia.com/wp-content/uploads/2017/02/feature_ocean_soundscapes_main2-1-760x378.jpg");}
-.img6 {background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg069NjXxl1pnbY0J6a7JOkoqAGMp3Kh2YcIfim4M_KX84wvX_sF4e7UFbVnhRg-OWOUU&usqp=CAU");}
-
-.bg-text {
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0,0,0, 0.4);
-    color: white;
-    font-weight: bold;
-    font-size: 80px;
-    border: 10px solid #f1f1f1;
-    position: fixed;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-}
-```
-## How you guys can help!
-
-- [x] We need to add a CSS explanation!
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="https://github.com/qwe123coder"><img src="https://avatars.githubusercontent.com/u/72848513?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anirudh  Anup</b></sub></a><br /><a href="#content-qwe123coder" title="Content">🖋</a></td>
-      <td align="center"><a href="https://codingspecies.github.io/MeAndMyApps/"><img src="https://avatars.githubusercontent.com/u/70807500?v=4?s=100" width="100px;" alt=""/><br /><sub><b>CodingSpecies</b></sub></a><br /><a href="#projectManagement-CodingSpecies" title="Project Management">📆</a></td>
-      <td align="center"><a href="https://github.com/sumitmukharjeeeeee"><img src="https://avatars.githubusercontent.com/u/59107641?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sumit Mukharjee</b></sub></a><br /><a href="#content-sumitmukharjeeeeee" title="Content">🖋</a></td>
-      <td align="center"><a href="https://github.com/HarshitAditya27"><img src="https://avatars.githubusercontent.com/u/71604531?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Harshit Aditya</b></sub></a><br /><a href="#content-HarshitAditya27" title="Content">🖋</a></td>
-      <td align="center"><a href="https://kira272921.netlify.app"><img src="https://avatars.githubusercontent.com/u/90365542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kira</b></sub></a><br /><a href="#content-Kira272921" title="Content">🖋</a></td>
-      <td align="center"><a href="https://bio.link/harsh1x4"><img src="https://avatars.githubusercontent.com/u/93096721?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Harshbardhan Singh</b></sub></a><br /><a href="#content-harsh1x4" title="Content">🖋</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+Contributions of all kinds are welcome!
